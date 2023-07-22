@@ -107,3 +107,8 @@ body {
 .menu-item button:hover {
   background-color: #45a049; /* Darken the button color on hover */
 }
+
+.img
+{
+align-items: left;
+}
