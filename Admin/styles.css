@@ -69,3 +69,41 @@ body {
   margin: 0;
 }
 
+/* styles.css */
+
+/* Styling for the main content */
+.main {
+  max-width: 800px; /* Set a maximum width for the main content */
+  margin: 0 auto;   /* Center the main content horizontally */
+  padding: 20px;    /* Add some padding around the main content */
+}
+
+/* Styling for the menu items */
+.menu-item {
+  display: flex;      /* Use flexbox to arrange content in a row */
+  align-items: center; /* Align items vertically in the center */
+  margin-bottom: 20px; /* Add spacing between each menu item */
+}
+
+.menu-item img {
+  width: 100px;    /* Set a fixed width for the menu item images */
+  height: 100px;   /* Set a fixed height for the menu item images */
+  margin-right: 10px; /* Add spacing between the image and text */
+}
+
+.menu-item p {
+  margin: 0; /* Remove default margins for paragraphs inside menu items */
+}
+
+.menu-item button {
+  padding: 8px 12px; /* Add padding to the buttons */
+  margin-right: 5px; /* Add spacing between the buttons */
+  background-color: #4CAF50; /* Set a background color for the buttons */
+  color: white; /* Set text color for the buttons */
+  border: none; /* Remove borders from the buttons */
+  cursor: pointer; /* Add a pointer cursor on hover */
+}
+
+.menu-item button:hover {
+  background-color: #45a049; /* Darken the button color on hover */
+}
