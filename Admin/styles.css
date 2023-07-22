@@ -60,3 +60,12 @@ body {
   background: #ccc;
 }
 
+.name {
+  text-align: right;
+  float:right;
+}
+
+.name p {
+  margin: 0;
+}
+
