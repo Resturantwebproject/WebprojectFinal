@@ -1,0 +1,14 @@
+.qualContBox{
+    height: 50px;
+    width: 100%;
+    background-color:rgb(188, 112, 133);
+    
+        }
+    .catag{
+            height: 90%;
+            width: 20%;
+            background-color: rgb(188, 112, 133);
+            text-align: left;
+            padding: auto;
+
+       }
