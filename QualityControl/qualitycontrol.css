@@ -1,14 +1,43 @@
+
 .qualContBox{
     height: 50px;
     width: 100%;
     background-color:rgb(188, 112, 133);
     
         }
-    .catag{
-            height: 90%;
-            width: 20%;
-            background-color: rgb(188, 112, 133);
-            text-align: left;
-            padding: auto;
+.catag{
+        height: 90%;
+        width: 20%;
+        background-color: rgb(188, 112, 133);
+        text-align: left;
+        padding: auto;
 
        }
+.viewComments{
+        display: block;
+        background-color: rgb(221, 167, 181);
+        height: 670px;
+        width: 1093px;
+        padding: 13px;
+        margin-left: 290px;
+        margin-top: -695px;
+        margin-bottom: -5px;
+     
+
+}
+.logo{
+        display: block;
+        width: 200;
+        height: auto;
+        margin: auto;
+        padding-top: -15px;
+}
+
+h1{
+    color:rgb(243, 238, 231);
+    text-align: left;
+    margin: 1%;
+    font-family:"Gill Sans", sans-serif;
+            
+            
+}
