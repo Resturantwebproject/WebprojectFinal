@@ -17,10 +17,6 @@ body {
     padding: 10px;
 }
 
-.topnav img {
-    width: 100px;
-}
-
 .topnav a {
     color: #ffffff;
     text-decoration: none;
@@ -70,11 +66,11 @@ body {
     padding-bottom: 10px;
 }
 
-.order {
+.delivery-item {
     padding: 10px;
 }
 
-.order p {
+.delivery-item p {
     margin-bottom: 5px;
 }
 
