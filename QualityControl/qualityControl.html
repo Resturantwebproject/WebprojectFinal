@@ -1,6 +1,17 @@
 <link rel="stylesheet" href="/Users/danieliskandar/Documents/GitHub/WebprojectFinal/QualityControl/qualitycontrol.css">
 <html>
+    <script>
+        function showDiv() {
+            var button = document.getElementById("view");
+            var box = document.getElementById("viewComments");
+            
+            button.addEventListener("click", function() {
+              box.style.display = "block";
+            });
 
+}     
+    </script>
+ 
     <body style="background-color:rgb(253,245,233)">
         <picture>
             <img class="logo" src="/Users/danieliskandar/Downloads/logo.jpeg" alt="Logo">
@@ -10,13 +21,17 @@
     </div>
 
     <div class="catag">
-        <p onclick="myFunction()"> View customers comments</p>
+        <p id="view"><a onclick="showDiv()">View customers comments</a></p>
         <p> Generate Review</p>
     </div>
-    <div class="viewComments">
 
-
+    <div id="viewComments" style="display:none;">
+        <div>
+            <span class="close">+</span>
+          </div>
     </div>
+
+
 
     </body>
 </html>
