@@ -1,0 +1,93 @@
+<html>  
+<script>
+    function myFunction() {
+        document.getElementById("panel").style.display = "block";
+      }
+</script>
+
+    <style>
+        .viewComments{
+            display: block;
+            background-color: rgb(221, 167, 181);
+            height: 670px;
+            width: 1093px;
+            padding: 13px;
+            margin-left: 290px;
+            margin-top: -695px;
+            margin-bottom: -5px;
+         
+
+        }
+        .logo{
+            display: block;
+            width: 200;
+            height: auto;
+            margin: auto;
+            padding-top: -15px;
+                }
+        .qualContBox{
+            height: 50px;
+            width: 100%;
+            background-color:rgb(188, 112, 133);
+            
+                }
+        .catag{
+            height: 90%;
+            width: 20%;
+            background-color: rgb(188, 112, 133);
+            text-align: left;
+            padding: auto;
+
+                }
+                p {
+                    box-shadow: inset 0 0 0 0 rgb(238,216,204);
+                    color: rgb(221,167,181);
+                    font-size: 22px;
+                    margin: auto;
+                    margin-top: 10px;
+                    padding: 3px;
+                    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+                    font-family: "Gill Sans", sans-serif;
+                  }
+                  p:hover {
+                    box-shadow: inset 400px 0 0 0 rgb(221,167,181);
+                    color: white;
+                  }
+  h1{
+    color:rgb(243, 238, 231);
+    text-align: left;
+    margin: 1%;
+    font-family:"Gill Sans", sans-serif;
+
+
+  }
+  #panel {
+    display: block;
+  }
+
+</style>
+
+
+<body style="background-color:rgb(253,245,233)">
+    <picture>
+        <img class="logo" src="/Users/danieliskandar/Downloads/logo.jpeg" alt="Logo">
+    </picture>
+   
+
+<div class="qualContBox">
+    <h1>Quality Control</h1>
+</div>
+
+<div class="catag">
+<p onclick="myFunction()"> View customers comments</p>
+<p> Generate Review</p>
+</div>
+
+<div class="viewComments">
+
+
+</div>
+
+
+</body>
+</html>
