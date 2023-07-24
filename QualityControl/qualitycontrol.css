@@ -22,7 +22,7 @@
         padding: 13px;
         margin-left: 290px;
         margin-top: -695px;
-        margin-bottom: -5px;
+        margin-bottom: -9px;
      
 
 }
@@ -31,13 +31,16 @@
         width: 200;
         height: auto;
         margin: auto;
-        padding-top: -15px;
+        padding-top: -10px;
+        padding-bottom: 50px;
+        
 }
 
 h1{
     color:rgb(243, 238, 231);
-    text-align: left;
-    margin: 1%;
+    /* text-align: left; */
+    margin-left: 2%;
+    margin-top: -45px;
     font-family:"Gill Sans", sans-serif;
             
             
@@ -53,8 +56,33 @@ p {
     font-family: "Gill Sans", sans-serif;
   }
   p:hover {
-    box-shadow: inset 400px 0 0 0 rgb(221,167,181);
+    box-shadow: inset 450px 0 0 0 rgb(221,167,181);
     color: white;
   }
 
+h4{
+    font-size: medium;
+    font-family:"Gill Sans", sans-serif;
+    margin: 10px;
+    font-style: oblique;
 
+}
+
+#square{
+    height: 40px;
+    width: auto;
+    margin-left: 50px;
+    margin-top: 7px;
+}
+.checked {
+    color: rgb(255, 197, 89);
+    /* margin-left: 10px; */
+    padding-left: 10px;
+  }
+
+  hr {
+    border: 1px solid rgb(245, 245, 245);
+    width:50%;
+    align-items: first baseline;
+    
+  }
