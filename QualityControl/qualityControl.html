@@ -9,8 +9,19 @@
             button.addEventListener("click", function() {
               box.style.display = "block";
             });
-
 }     
+
+function showReport() {
+    var button = document.getElementById("report");
+    var box = document.getElementById("viewReport");
+    
+    button.addEventListener("click", function() {
+      box.style.display = "block";
+    });
+
+    
+
+}   
 function Hide(HideClass) 
 {
   HideClass.style.display = "none"; 
@@ -27,7 +38,7 @@ function Hide(HideClass)
 
     <div class="catag">
         <p id="view"><a onclick="showDiv()">View customers comments</a></p>
-        <p> Generate Report</p>
+        <p id="report"><a onclick="showReport()"> Generate Report</a></p>
     </div>
 
     <div id="viewComments" style="display:none;" overflow-y: auto;>
@@ -88,7 +99,9 @@ function Hide(HideClass)
 
                   </div>
     </div>
-
+<div id="viewReport" style="display:none;" overflow-y: auto;>
+    <a href="#" onclick="Hide(viewReport);">X</a>
+</div>
 
 
     </body>
