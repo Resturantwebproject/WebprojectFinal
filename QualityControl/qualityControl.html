@@ -1,0 +1,86 @@
+<link rel="stylesheet" href="/Users/danieliskandar/Documents/GitHub/WebprojectFinal/QualityControl/qualitycontrol.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<html>
+    <script src="qualitycont.js">
+
+    </script>
+ 
+    <body style="background-color:rgb(253,245,233)">
+        <picture>
+            <img class="logo" src="/Users/danieliskandar/Downloads/logo.jpeg" alt="Logo">
+        </picture>
+    <div class="qualContBox">
+            <h1>Quality Control</h1>
+    </div>
+
+    <div class="catag">
+        <p id="view"><a onclick="showDiv()">View customers comments</a></p>
+        <p id="report"><a onclick="showReport()"> Generate Report</a></p>
+    </div>
+
+    <div id="viewComments" style="display:none;" overflow-y: auto;>
+        <div>
+            <a href="#" onclick="Hide(viewComments);">X</a>
+            <hr>
+            <h4> Name: Ahmed Ashraf</h4>
+            <h4> Order: 1 CheeseBurger</h4>
+            <h4>Order status: Done</h4>
+            <h4> Comment: "Needed extra cheese"</h4>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <hr> 
+        
+            <h4> Name: Osama Ahmed</h4>
+            <h4> Order: 2 Chicken strips Meal</h4>
+            <h4>Order status: Done</h4>
+            <h4> Comment: " "</h4>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <hr> 
+            <h4> Name: Yassin Labib</h4>
+            <h4> Order: 1 Oreo MilkShake</h4>
+            <h4>Order status: Done</h4>
+            <h4> Comment: "Wasn't cold"</h4>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star "></span>
+            <span class="fa fa-star "></span>
+            <span class="fa fa-star "></span>
+            <span class="fa fa-star "></span>
+            <hr> 
+            <h4> Name: Donya Hany</h4>
+            <h4> Order: 1 Vanilla MilkShake</h4>
+            <h4>Order status: Done</h4>
+            <h4> Comment: "It was good"</h4>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star "></span>
+            <hr> 
+            <h4> Name: Donya Hany</h4>
+            <h4> Order: 1 Oreo MilkShake</h4>
+            <h4>Order status: Cancelled</h4>
+            <h4> Comment: "Waited for too long"</h4>
+            <span class="fa fa-star "></span>
+            <span class="fa fa-star "></span>
+            <span class="fa fa-star "></span>
+            <span class="fa fa-star "></span>
+            <span class="fa fa-star "></span>
+            <hr> 
+
+                  </div>
+    </div>
+<div id="viewReport" style="display:none;" overflow-y: auto;>
+    <a href="#" onclick="Hide(viewReport);">X</a>
+</div>
+
+
+    </body>
+</html>
