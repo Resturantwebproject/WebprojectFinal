@@ -1,9 +1,11 @@
 function showDiv() {
     var button = document.getElementById("view");
     var box = document.getElementById("viewComments");
+    var divReport=document.getElementById("viewReport");
     
     button.addEventListener("click", function() {
       box.style.display = "block";
+      divReport.style.display="none";
     });
 }     
 
@@ -14,7 +16,7 @@ var divDiv=document.getElementById("viewComments");
 
 button.addEventListener("click", function() {
 box.style.display = "block";
-divDiv.style.display=Hide;
+divDiv.style.display="none";
 
 });
 
