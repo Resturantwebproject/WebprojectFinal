@@ -9,10 +9,16 @@
 
         }
 
-        #rate{
+        h2{
             font-family: Geneva, Verdana, sans-serif;
             font-style: initial;
 
+
+        }
+        #rate{
+            font-family: Geneva, Verdana, sans-serif;
+            font-style: initial;
+            cursor: pointer;
         }
 
       h1{
@@ -38,13 +44,28 @@
         padding: 13px;
         margin-top: 30px;
         overflow-y: scroll;
+        cursor: pointer;
+
 
 
 }
 #view{
     margin-right: 10px;
-    margin-left: 10px;
+    margin-left: 25px;
     margin-bottom: 8px;
+    cursor: pointer;
+}
+#report{
+    margin-right: 10px;
+    margin-left: 25px;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+#manage{
+    margin-right: 10px;
+    margin-left: 25px;
+    margin-bottom: 8px;
+    cursor: pointer;
 }
 
 h1{
@@ -78,18 +99,22 @@ p {
     margin: auto;
     margin-top: 10px;
     padding: 3px;
-    transition: background-color 300ms ease-out 200ms;
+    transition: background-color 500ms ease-out 3ms;
+    border-radius: 25px;
+    cursor: pointer;
+    background-color: #ffffff;
     border-radius: 25px;
 
     font-family: "Gill Sans", sans-serif;
   }
   p:hover {
-    background-color: #FF1493;
+    background-color: rgb(221,167,181);;
     border-radius: 25px;
+    color: rgb(255, 255, 255);
 
   }
   p:active{
-        background-color: #FF1493;
+        background-color: rgb(221,167,181);;
 
   }
 
@@ -99,7 +124,6 @@ h4{
     font-family:"Gill Sans", sans-serif;
     margin: 10px;
     font-style: oblique;
-
 }
 
 #square{
@@ -115,8 +139,7 @@ h4{
   }
 
   hr {
-    border: 1px solid rgb(245, 245, 245);
-    width:70%;
+    border-top: 1px dashed white;    width:70%;
     align-items: first baseline;
     margin-left: 2px;
     
@@ -126,7 +149,7 @@ h4{
     border-radius: 25px;
 
     display: block;
-    background-color: rgb(221,167,181);;
+    background-color: rgb(221,167,181);
     height: 80%;
     width: 99%;
     padding: 13px;
@@ -190,3 +213,25 @@ h4{
       display: none;
     }
   }
+
+  #cancel{
+    font-family: "Gill Sans", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+
+  }
+
+  .details{
+    font-size: 25px;
+    margin-right: 25px;
+  }
+  .c{
+   background-color: white;
+  }
+
+  #mOrder, #de{
+    cursor: pointer;
+  }
+
+  
