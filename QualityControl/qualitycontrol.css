@@ -5,6 +5,10 @@
     background-color:rgb(188, 112, 133);
     
         }
+#report ,#view{
+    color: aliceblue;
+}
+
 
 .catag{
         height: 90%;
@@ -16,7 +20,7 @@
        }
 #viewComments{
         display: block;
-        background-color: rgb(221,167,181);;
+        background-color: rgb(221,167,181);
         height: 670px;
         width: 1093px;
         padding: 13px;
