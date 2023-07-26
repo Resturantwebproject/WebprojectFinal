@@ -20,9 +20,20 @@ divDiv.style.display="none";
 
 });
 
-
-
 }   
+
+
+function showReview() {
+    var button = document.getElementById("rate");
+    var star=document.getElementById("stars");
+    
+    button.addEventListener("click", function() {
+    star.style.display = "block";
+    });
+    
+    }   
+
+
 
 
 function light(){
