@@ -20,10 +20,33 @@ divDiv.style.display="none";
 
 });
 
-
-
 }   
-function Hide(HideClass) 
-{
-HideClass.style.display = "none"; 
+
+
+function showReview() {
+    var button = document.getElementById("rate");
+    var star=document.getElementById("stars");
+    
+    button.addEventListener("click", function() {
+    star.style.display = "block";
+    });
+    
+    }   
+
+
+
+
+function light(){
+    var buttonView=document.getElementById("view");
+    var buttonComment=document.getElementById("report");
+
+
+    buttonView.addEventListener("click",function(){
+        buttonView.style.backgroundColor="white";
+        if(buttonComment.addEventListener("click")){
+            buttonView.style.color="rgb(221,167,181)"
+            buttonComment.style.color="white";
+        }
+    });
 }
+
