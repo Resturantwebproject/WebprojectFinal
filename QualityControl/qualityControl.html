@@ -7,11 +7,13 @@
     </script>
  
     <body style="background-color:rgb(253,245,233)">
+        <h1 id="qText">Quality Control</h1>
+
         <picture>
             <img class="logo" src="/Users/danieliskandar/Downloads/logo.jpeg" alt="Logo">
         </picture>
 
-        <h1 id="qText">Quality Control</h1>
+       
 
     <div class="qualContBox">
         <div id="viewDiv">
@@ -84,10 +86,9 @@
 
 
 <div id="viewReport" style="display:none;" overflow-y: auto;>
-    <ul>
-        <li id="rate" onclick="showReview()">Rating</li>
-    </ul>
-<div id="stars" style="display:none;">
+        <h2 id="rate" onclick="showReview()"> Rating </h2>
+    
+<div id="stars" onclick="star()" style="display:none;">
     <span class="heading">User Rating</span>
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
