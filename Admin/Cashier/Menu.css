@@ -62,6 +62,19 @@ h2 {
     text-align: center;
 }
 
+.button{
+    color: #000000;
+    margin: 20px;
+    fill: #000000;
+}
+
+.button:hover{
+    color: #000000;
+    margin: 20px;
+    fill: #000000;
+}
+
+
 .category-button {
     background-color: #E6A4B4;
     color: #fff;
