@@ -40,22 +40,22 @@ if (viewReport.style.display === "none") {
 
 
 function showReview() {
-    var button = document.getElementById("rate");
     var star=document.getElementById("stars");
     
-    button.addEventListener("click", function() {
-    star.style.display = "block";
-    });
-    
-    }   
-
-function star(){
-    var star=document.getElementById("stars");
-
     if (star.style.display === "none") {
         star.style.display = "block";
       } else {
         star.style.display = "none";
+      }
+    }   
+
+function detail(){
+    var d=document.getElementById("details");
+
+    if (d.style.display === "none") {
+        d.style.display = "block";
+      } else {
+        d.style.display = "none";
       }
 }
 

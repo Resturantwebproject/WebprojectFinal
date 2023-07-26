@@ -21,7 +21,10 @@
         </div>
        <div id="reportDiv">
         <p id="report"><a onclick="light()"> </a><a onclick="showReport()"> Generate Report</a></p>
+       </div>
 
+       <div id="managerDiv"> 
+        <p id="manage"> Manage Employees</p>
        </div>
 
     </div>
@@ -86,7 +89,8 @@
 
 
 <div id="viewReport" style="display:none;" overflow-y: auto;>
-        <h2 id="rate" onclick="showReview()"> Rating </h2>
+        <h2 class="head" id="rate" onclick="showReview()"> -Rating </h2>
+        <hr>
     
 <div id="stars" onclick="star()" style="display:none;">
     <span class="heading">User Rating</span>
@@ -155,9 +159,21 @@
     <div>20</div>
   </div>
 </div>
+<hr>
 </div>
 
+<h2 id="de" onclick="detail()">-Details of Customers' orders</h2>
+<div id="details" style="display:none;">
+    <div id="cancel">Cancelled orders:</div>
+    <h4 id="c"> Name: Donya Hany</h4>
+    <h4 id="c"> Order: 1 Oreo MilkShake</h4>
+    <h4 id="c"> Comment: "Waited for too long"</h4>
 
+    <div id="cancel">Edited orders:</div>
+
+</div>
+<hr>
+<h2 id="de">-Most ordered Item </h2>
 
 </div>
 
