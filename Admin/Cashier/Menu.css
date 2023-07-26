@@ -32,6 +32,7 @@ body {
     background-color: #C86B85;
 }
 
+
 .search-container {
     display: flex;
     align-items: center;
@@ -50,7 +51,6 @@ body {
     cursor: pointer;
 }
 
-/* Main Content Styles */
 .main {
     background-color: #ffffff;
     margin: 20px;
@@ -62,9 +62,8 @@ h2 {
     text-align: center;
 }
 
-/* Category Button Style */
 .category-button {
-    background-color: #3498db;
+    background-color: #E6A4B4;
     color: #fff;
     padding: 10px;
     cursor: pointer;
@@ -75,15 +74,13 @@ h2 {
 }
 
 .category-button:hover {
-    background-color: #2980b9;
+    background-color: #E6A4B4;
 }
 
-/* Hide all categories by default */
 .category {
     display: none;
 }
 
-/* Menu Item Styles */
 .menu-item {
     display: flex;
     align-items: center;
@@ -97,9 +94,8 @@ img {
     border-radius: 5px;
 }
 
-/* Button Style */
 button {
-    background-color: #27ae60;
+    background-color: #E6A4B4;
     color: #fff;
     border: none;
     padding: 5px 10px;
@@ -112,7 +108,6 @@ button:hover {
     background-color: #219651;
 }
 
-/* Footer Styles */
 .footer {
     background-color: #000000; 
     color: #fff;
