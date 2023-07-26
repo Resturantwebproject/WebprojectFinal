@@ -10,13 +10,18 @@
         <picture>
             <img class="logo" src="/Users/danieliskandar/Downloads/logo.jpeg" alt="Logo">
         </picture>
-    <div class="qualContBox">
-            <h1>Quality Control</h1>
-    </div>
 
-    <div class="catag">
-        <p id="view"><a onclick="light()"></a><a onclick="showDiv()">View customers comments</a></p>
+        <h1 id="qText">Quality Control</h1>
+
+    <div class="qualContBox">
+        <div id="viewDiv">
+            <p id="view"><a onclick="light()"></a><a onclick="showDiv()">View customers comments</a></p>    
+        </div>
+       <div id="reportDiv">
         <p id="report"><a onclick="light()"> </a><a onclick="showReport()"> Generate Report</a></p>
+
+       </div>
+
     </div>
 
     <div id="viewComments" style="display:none;" overflow-y: auto;>

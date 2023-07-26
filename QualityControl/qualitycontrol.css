@@ -3,10 +3,24 @@
     height: 50px;
     width: 100%;
     background-color:rgb(188, 112, 133);
+    display: flex;
     
         }
-#report ,#view{
+    #viewDiv{
+        width:33%;
+    }
+
+    #reportDiv{
+        width:33%
+    }
+#report {
     color: aliceblue;
+    margin-top: 20px;
+}
+
+#view{
+    margin-top: 20px;
+
 }
 
 
@@ -21,12 +35,11 @@
 #viewComments{
         display: block;
         background-color: rgb(221,167,181);
-        height: 670px;
-        width: 1093px;
+        height:1250px;
+        width: auto;
         padding: 13px;
-        margin-left: 290px;
-        margin-top: -695px;
-        margin-bottom: -9px;
+        margin-top: 70px;
+      
         overflow-y: scroll;
 
      
@@ -82,7 +95,7 @@ h4{
     margin-top: 7px;
 }
 .checked {
-    color: rgb(255, 197, 89);
+    color: rgb(250, 177, 41);
     /* margin-left: 10px; */
     padding-left: 10px;
   }
@@ -98,12 +111,10 @@ h4{
   #viewReport{
     display: block;
     background-color: rgb(221,167,181);;
-    height: 670px;
-    width: 1093px;
+    height:1250px;
+    width: auto;
     padding: 13px;
-    margin-left: 290px;
-    margin-top: -695px;
-    margin-bottom: -9px;
+    margin-top: 70px;
     overflow-y: scroll;
 
   }
@@ -120,10 +131,6 @@ h4{
   
   .fa {
     font-size: 25px;
-  }
-  
-  .checked {
-    color: orange;
   }
   
   /* Three column layout */
@@ -173,4 +180,8 @@ h4{
     .right {
       display: none;
     }
+  }
+
+  #qText{
+    color: #00bcd4;
   }

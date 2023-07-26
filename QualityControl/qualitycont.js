@@ -20,6 +20,7 @@ divDiv.style.display="none";
 
 });
 
+
 }   
 
 
@@ -30,6 +31,7 @@ function showReview() {
     button.addEventListener("click", function() {
     star.style.display = "block";
     });
+
     
     }   
 
