@@ -1,120 +1,116 @@
 body, h1, h2, h3, p, ul, li, button {
     margin: 0;
     padding: 0;
-}
-
-body {
+  }
+  
+  body {
     font-family: Arial, sans-serif;
-    background-color: #ffffff; 
-}
-
-
-.topnav {
+    background-color: #ffffff;
+  }
+  
+  .topnav {
     background-color: #000000;
     color: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-}
-
-.topnav a {
+  }
+  
+  .topnav a {
     color: #ffffff;
     text-decoration: none;
     padding: 10px 15px;
-}
-
-.topnav a.active {
+  }
+  
+  .topnav a.active {
     background-color: #E6A4B4;
-}
-
-.topnav a:hover {
+  }
+  
+  .topnav a:hover {
     background-color: #C86B85;
-}
-
-
-.search-container {
+  }
+  
+  .search-container {
     display: flex;
     align-items: center;
-}
-
-.search-container input[type="text"] {
+  }
+  
+  .search-container input[type="text"] {
     padding: 5px;
     border: 1px solid #F3D7CA;
-}
-
-#searchButton {
-    background-color: #E6A4B4; 
+  }
+  
+  #searchButton {
+    background-color: #E6A4B4;
     color: #fff;
     border: none;
     padding: 5px 10px;
     cursor: pointer;
-}
-
-.main {
+  }
+  
+  .name {
+    text-align: right;
+    padding-right: 20px;
+  }
+  
+  .main {
     background-color: #ffffff;
     margin: 20px;
     padding: 20px;
     border: 1px solid #F3D7CA;
-}
-
-h2 {
+  }
+  
+  .main h2 {
+    border-bottom: 1px solid #F3D7CA;
+    padding-bottom: 10px;
+  }
+  
+  .menu {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .menu-item {
     text-align: center;
-}
-
-.category-button {
-    background-color: #E6A4B4;
-    color: #fff;
     padding: 10px;
-    cursor: pointer;
+    border: 1px solid #F3D7CA;
     border-radius: 5px;
-    text-align: center;
-    margin-bottom: 10px;
-    transition: background-color 0.3s ease;
-}
-
-.category-button:hover {
-    background-color: #E6A4B4;
-}
-
-.category {
-    display: none;
-}
-
-.menu-item {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-}
-
-img {
-    width: 100px;
-    height: 100px;
-    margin-right: 10px;
+  }
+  
+  .menu-item img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
     border-radius: 5px;
-}
-
-button {
+  }
+  
+  .menu-item p {
+    margin: 5px 0;
+  }
+  
+  .addButton, .editButton, .deleteButton {
     background-color: #E6A4B4;
     color: #fff;
     border: none;
     padding: 5px 10px;
     cursor: pointer;
-    border-radius: 3px;
-    transition: background-color 0.3s ease;
-}
-
-button:hover {
-    background-color: #219651;
-}
-
-.footer {
-    background-color: #000000; 
+    margin-right: 5px;
+  }
+  
+  .addButton:hover, .editButton:hover, .deleteButton:hover {
+    background-color: #C86B85;
+  }
+  
+  .footer {
+    background-color: #000000;
     color: #fff;
     text-align: center;
     padding: 10px;
-}
-
-.footer p {
+  }
+  
+  .footer p {
     margin: 0;
-}
+  }
+  

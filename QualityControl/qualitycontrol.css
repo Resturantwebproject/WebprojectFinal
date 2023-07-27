@@ -1,28 +1,31 @@
 
 .qualContBox{
-    height: 50px;
-    width: 100%;
-    background-color:rgb(188, 112, 133);
     display: flex;
-    
+    flex-direction: row;
+    text-align: center;
+    background-color:  rgb(188, 112, 133);
+    border-radius: 25px;
+    text-align: center;
+
         }
-    #viewDiv{
-        width:33%;
-    }
 
-    #reportDiv{
-        width:33%
-    }
-#report {
-    color: aliceblue;
-    margin-top: 20px;
-}
+        h2{
+            font-family: Geneva, Verdana, sans-serif;
+            font-style: initial;
 
-#view{
-    margin-top: 20px;
 
-}
+        }
+        #rate{
+            font-family: Geneva, Verdana, sans-serif;
+            font-style: initial;
+            cursor: pointer;
+        }
 
+      h1{
+        color: #FF1493;
+        margin: auto;
+        text-align: left;
+      }
 
 .catag{
         height: 90%;
@@ -33,18 +36,43 @@
 
        }
 #viewComments{
+    border-radius: 25px;
         display: block;
-        background-color: rgb(221,167,181);
-        height:1250px;
-        width: auto;
+        background-color: rgb(221,167,181);;
+        height: 80%;
+        width: 99%;
         padding: 13px;
-        margin-top: 70px;
-      
+        margin-top: 30px;
         overflow-y: scroll;
+        cursor: pointer;
 
-     
+
 
 }
+#view{
+    margin-right: 10px;
+    margin-left: 25px;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+#report{
+    margin-right: 10px;
+    margin-left: 25px;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+#manage{
+    margin-right: 10px;
+    margin-left: 25px;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+h1{
+    color: black;
+    text-align: left;
+ }
+
 .logo{
         display: block;
         width: 200;
@@ -71,12 +99,23 @@ p {
     margin: auto;
     margin-top: 10px;
     padding: 3px;
-    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    transition: background-color 500ms ease-out 3ms;
+    border-radius: 25px;
+    cursor: pointer;
+    background-color: #ffffff;
+    border-radius: 25px;
+
     font-family: "Gill Sans", sans-serif;
   }
   p:hover {
-    box-shadow: inset 450px 0 0 0 rgb(221,167,181);
-    color: white;
+    background-color: rgb(221,167,181);;
+    border-radius: 25px;
+    color: rgb(255, 255, 255);
+
+  }
+  p:active{
+        background-color: rgb(221,167,181);;
+
   }
 
 
@@ -85,7 +124,6 @@ h4{
     font-family:"Gill Sans", sans-serif;
     margin: 10px;
     font-style: oblique;
-
 }
 
 #square{
@@ -95,35 +133,31 @@ h4{
     margin-top: 7px;
 }
 .checked {
-    color: rgb(250, 177, 41);
+    color: rgb(255, 197, 89);
     /* margin-left: 10px; */
     padding-left: 10px;
   }
 
   hr {
-    border: 1px solid rgb(245, 245, 245);
-    width:70%;
+    border-top: 1px dashed white;    width:70%;
     align-items: first baseline;
     margin-left: 2px;
     
   }
   
   #viewReport{
+    border-radius: 25px;
+
     display: block;
-    background-color: rgb(221,167,181);;
-    height:1250px;
-    width: auto;
+    background-color: rgb(221,167,181);
+    height: 80%;
+    width: 99%;
     padding: 13px;
-    margin-top: 70px;
+    margin-top: 30px;
     overflow-y: scroll;
 
   }
 
-  * {
-    box-sizing: border-box;
-  }
-  
-  
   .heading {
     font-size: 25px;
     margin-right: 25px;
@@ -133,7 +167,10 @@ h4{
     font-size: 25px;
   }
   
-  /* Three column layout */
+  .checked {
+    color: orange;
+  }
+  
   .side {
     float: left;
     width: 15%;
@@ -145,20 +182,16 @@ h4{
     width: 70%;
     margin-top: 10px;
   }
-  
-  /* Place text to the right */
-  .right {
+    .right {
     text-align: right;
   }
   
-  /* Clear floats after the columns */
   .row:after {
     content: "";
     display: table;
     clear: both;
   }
   
-  /* The bar container */
   .bar-container {
     width: 100%;
     background-color: #f1f1f1;
@@ -166,7 +199,6 @@ h4{
     color: white;
   }
   
-
   .bar-5 {width: 60%; height: 18px; background-color: #04AA6D;}
   .bar-4 {width: 30%; height: 18px; background-color: #2196F3;}
   .bar-3 {width: 10%; height: 18px; background-color: #00bcd4;}
@@ -182,6 +214,24 @@ h4{
     }
   }
 
-  #qText{
-    color: #00bcd4;
+  #cancel{
+    font-family: "Gill Sans", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+
   }
+
+  .details{
+    font-size: 25px;
+    margin-right: 25px;
+  }
+  .c{
+   background-color: white;
+  }
+
+  #mOrder, #de{
+    cursor: pointer;
+  }
+
+  
