@@ -5,22 +5,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Food Website</title>
-    <link rel="stylesheet" href="./drinks.css">
+    <link rel="stylesheet" href="./styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style> 
+        .button
+            {
+             border: none;
+             color: white;
+             padding: 15px 32px;
+             text-align: center;
+             text-decoration: none;
+             display: inline-block;
+             font-size: 16px;
+             margin: 4px 2px;
+             cursor: pointer;
+            }
+            
+    .button1 {background-color: palevioletred;} 
+    .button2 {background-color: palevioletred;}  
+    .button3 {background-color: palevioletred;} 
+</style> 
 </head>
 <body>
 
     <section id="Home">
         <nav>
             <div class="logo">
-                <img src="./logo.PNG">
+                <img src="./images/logo.PNG">
             </div>
 
             <ul>
-                <li><a href="#Home">Home</a></li>
-                <li><a href="#Menu">Menu</a></li>
-                <li><a href="#Contact us">Contact us</a></li>
-                <li><a href="#Order">Order</a></li>
+                <li class="nav-item"><a href="#Home">Home</a></li>
+                <li class="nav-item" aria-expanded="false" aria-controls="menu-list"><a>Menu</a></li>
+                <li class="nav-item">
+                    <ul class="menu-list"  id="menu-list">
+                        <li class="menu-list-item">
+                            <a href="#drinks">Drinks</a>
+                        </li>
+
+                        <li class="menu-list-item">
+                            <a href="#breakfast">Breakfast</a>
+                        </li>
+
+                        <li class="menu-list-item">
+                            <a href="#launch">Launch</a>
+                        </li>
+
+                        <li class="menu-list-item">
+                            <a href="#dinner">Dinner</a>
+                        </li>
+
+                        <li class="menu-list-item">
+                            <a href="#dessert">Dessert</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a href="#Contact us">Contact us</a></li>
+                <li class="nav-item"><a href="#Order">Order</a></li>
             </ul>
 
             <div class="icon">
@@ -43,7 +84,7 @@
             <div class="menu_card">
 
                 <div class="menu_image">
-                    <img src="./kk.jpg">
+                    <img src="./images/kk.jpg">
                 </div>
 
                 <div class="small_card">
@@ -56,6 +97,9 @@
                     <h3>$5.00</h3>
 
                     <a href="#" class="menu_btn">Order Now</a>
+                    <button class="button button1">Add</button>
+                    <button class="button button3">Edit</button> 
+                    <button class="button button2">Delete</button> 
 
                 </div>
 
@@ -64,7 +108,7 @@
             <div class="menu_card">
 
                 <div class="menu_image">
-                    <img src="./uu.jpg">
+                    <img src="./images/uu.jpg">
                 </div>
 
                 <div class="small_card">
@@ -77,6 +121,9 @@
                     <h3>$8.00</h3>
 
                     <a href="#" class="menu_btn">Order Now</a>
+                    <button class="button button1">Add</button>
+                    <button class="button button3">Edit</button> 
+                    <button class="button button2">Delete</button> 
                 </div>
 
             </div>
@@ -84,7 +131,7 @@
             <div class="menu_card">
 
                 <div class="menu_image">
-                    <img src="./c.jpg">
+                    <img src="./images/c.jpg">
                 </div>
 
                 <div class="small_card">
@@ -97,6 +144,9 @@
                     <h3>$20.00</h3>
 
                     <a href="#" class="menu_btn">Order Now</a>
+                    <button class="button button1">Add</button>
+                    <button class="button button3">Edit</button> 
+                    <button class="button button2">Delete</button> 
                 </div>
 
             </div>
@@ -104,7 +154,7 @@
             <div class="menu_card">
 
                 <div class="menu_image">
-                    <img src="./b.jpg">
+                    <img src="./images/b.jpg">
                 </div>
 
                 <div class="small_card">
@@ -117,6 +167,9 @@
                     <h3>$15.00</h3>
 
                     <a href="#" class="menu_btn">Order Now</a>
+                    <button class="button button1">Add</button>
+                    <button class="button button3">Edit</button> 
+                    <button class="button button2">Delete</button> 
                 </div>
 
             </div>
@@ -124,7 +177,7 @@
             <div class="menu_card">
 
                 <div class="menu_image">
-                    <img src="./a.jpg">
+                    <img src="./images/a.jpg">
                 </div>
 
                 <div class="small_card">
@@ -137,6 +190,9 @@
                     <h3>$10.00</h3>
 
                     <a href="#" class="menu_btn">Order Now</a>
+                    <button class="button button1">Add</button>
+                    <button class="button button3">Edit</button> 
+                    <button class="button button2">Delete</button> 
                 </div>
 
             </div>
@@ -144,7 +200,7 @@
             <div class="menu_card">
 
                 <div class="menu_image">
-                    <img src="./as.jpg">
+                    <img src="./images/as.jpg">
                 </div>
 
                 <div class="small_card">
@@ -157,6 +213,9 @@
                     <h3>$18.00</h3>
 
                     <a href="#" class="menu_btn">Order Now</a>
+                    <button class="button button1">Add</button>
+                    <button class="button button3">Edit</button> 
+                    <button class="button button2">Delete</button> 
                 </div>
 
             </div>
@@ -164,7 +223,7 @@
             <div class="menu_card">
 
                 <div class="menu_image">
-                    <img src="./ll.jpg">
+                    <img src="./images/ll.jpg">
                 </div>
 
                 <div class="small_card">
@@ -177,6 +236,9 @@
                     <h3>$7.00</h3>
 
                     <a href="#" class="menu_btn">Order Now</a>
+                    <button class="button button1">Add</button>
+                    <button class="button button3">Edit</button> 
+                    <button class="button button2">Delete</button> 
                 </div>
 
             </div>
@@ -184,7 +246,7 @@
             <div class="menu_card">
 
                 <div class="menu_image">
-                    <img src="./dd.jpg">
+                    <img src="./images/dd.jpg">
                 </div>
 
                 <div class="small_card">
@@ -197,6 +259,9 @@
                     <h3>$32.00</h3>
 
                     <a href="#" class="menu_btn">Order Now</a>
+                    <button class="button button1">Add</button>
+                    <button class="button button3">Edit</button> 
+                    <button class="button button2">Delete</button> 
                 </div>
 
             </div>
@@ -204,7 +269,7 @@
             <div class="menu_card">
 
                 <div class="menu_image">
-                    <img src="./o.jpg">
+                    <img src="./images/o.jpg">
                 </div>
 
                 <div class="small_card">
@@ -217,6 +282,9 @@
                     <h3>$25.00</h3>
 
                     <a href="#" class="menu_btn">Order Now</a>
+                    <button class="button button1">Add</button>
+                    <button class="button button3">Edit</button> 
+                    <button class="button button2">Delete</button> 
                 </div>
 
             </div>
@@ -224,7 +292,7 @@
             <div class="menu_card">
 
                 <div class="menu_image">
-                    <img src="./q.png">
+                    <img src="./images/q.png">
                 </div>
 
                 <div class="small_card">
@@ -237,6 +305,9 @@
                     <h3>$10.00</h3>
 
                     <a href="#" class="menu_btn">Order Now</a>
+                    <button class="button button1">Add</button>
+                    <button class="button button3">Edit</button> 
+                    <button class="button button2">Delete</button> 
                 </div>
 
             </div>
@@ -244,7 +315,7 @@
             <div class="menu_card">
 
                 <div class="menu_image">
-                    <img src="./g.jpg">
+                    <img src="./images/g.jpg">
                 </div>
 
                 <div class="small_card">
@@ -257,6 +328,9 @@
                     <h3>$8.00</h3>
 
                     <a href="#" class="menu_btn">Order Now</a>
+                    <button class="button button1">Add</button>
+                    <button class="button button3">Edit</button> 
+                    <button class="button button2">Delete</button> 
                 </div>
 
             </div>
@@ -264,7 +338,7 @@
             <div class="menu_card">
 
                 <div class="menu_image">
-                    <img src="./d.jpg">
+                    <img src="./images/d.jpg">
                 </div>
 
                 <div class="small_card">
@@ -275,6 +349,9 @@
                     <h2>Fanta Orange</h2>
                     <h3>$23.00</h3>
                     <a href="#" class="menu_btn">Order Now</a>
+                    <button class="button button1">Add</button>
+                    <button class="button button3">Edit</button> 
+                    <button class="button button2">Delete</button> 
                 </div>
 
             </div>
@@ -369,6 +446,26 @@
             </div>
         </div>
     </footer>
+    <script>
+        const menuBtn = document.querySelector("li[aria-expanded]");
+        const menuList = document.getElementById("menu-list");
+    
+        function toggleMenu() {
+            const expanded = menuBtn.getAttribute("aria-expanded") === "true";
+            const newExpandedState = !expanded;
+    
+            menuBtn.setAttribute("aria-expanded", newExpandedState);
+            menuList.setAttribute("aria-expanded", newExpandedState);
+    
+            if (newExpandedState) {
+                menuList.classList.add("expanded");
+            } else {
+                menuList.classList.remove("expanded");
+            }
+        }
+    
+        menuBtn.addEventListener("click", toggleMenu);
+    </script>
 </body>
 </html>
 

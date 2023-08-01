@@ -5,6 +5,63 @@
     font-family: sans-serif;
 }
 
+.menu-list{
+    border: 1px solid lightgray;
+    padding: 1rem 1rem 1rem 1rem;
+    position: absolute;
+    left: 41vw;
+    top: 63%;
+    background: white;
+    box-shadow: 3px 3px 3px darkgrey;
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 0.3s, max-height 0.3s;
+}
+/* Add this CSS to create the fade-in/fade-out animation */
+
+
+[aria-expanded="false"] ~ li ul{
+    display: none;
+}
+
+[aria-expanded="true"] ~ li ul{
+    display: block;
+    opacity: 1;
+    max-height: 500px; /* Adjust the height as needed */
+}
+.menu-list{
+    border: 1px solid lightgray;
+    padding: 1rem 1rem 1rem 1rem;
+    position: absolute;
+    left: 41vw;
+    top: 63%;
+    background: white;
+    box-shadow: 3px 3px 3px darkgrey;
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 0.3s, max-height 0.3s;
+}
+/* Add this CSS to create the fade-in/fade-out animation */
+
+
+[aria-expanded="false"] ~ li ul{
+    display: none;
+}
+
+[aria-expanded="true"] ~ li ul{
+    display: block;
+    opacity: 1;
+    max-height: 500px; /* Adjust the height as needed */
+}
+
+
+
+.hidden-menu{
+    display: block !important;
+}
+
 .menu_image img {
     width: 100px;
     height: 100px;
@@ -46,7 +103,7 @@ section {
             list-style: none;
         }
 
-            section nav ul li {
+            section nav ul .nav-item {
                 display: inline-block;
                 margin: 0 15px;
             }

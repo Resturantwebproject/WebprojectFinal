@@ -1,26 +1,69 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Food Website</title>
-    <link rel="stylesheet" href="./StyleSheet1.css">
+    <link rel="stylesheet" href="./styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style> 
+    .button
+        {
+         border: none;
+         color: white;
+         padding: 15px 32px;
+         text-align: center;
+         text-decoration: none;
+         display: inline-block;
+         font-size: 16px;
+         margin: 4px 2px;
+         cursor: pointer;
+        }
+.button1 {background-color: palevioletred;} 
+.button2 {background-color: palevioletred;}  
+.button3 {background-color: palevioletred;} 
+
+
+</style>
 </head>
 <body>
+    
 
     <section id="Home">
         <nav>
             <div class="logo">
-                <img src="./logo.PNG">
+                <img src="./images/logo.PNG">
             </div>
 
             <ul>
-                <li><a href="#Home">Home</a></li>
-                <li><a href="#Menu">Menu</a></li>
-                <li><a href="#Contact us">Contact us</a></li>
-                <li><a href="#Order">Order</a></li>
+                <li class="nav-item"><a href="#Home">Home</a></li>
+                <li class="nav-item" aria-expanded="false" aria-controls="menu-list"><a>Menu</a></li>
+                <li class="nav-item">
+                    <ul class="menu-list"  id="menu-list">
+                        <li class="menu-list-item">
+                            <a href="#drinks">Drinks</a>
+                        </li>
+
+                        <li class="menu-list-item">
+                            <a href="#breakfast">Breakfast</a>
+                        </li>
+
+                        <li class="menu-list-item">
+                            <a href="#launch">Launch</a>
+                        </li>
+
+                        <li class="menu-list-item">
+                            <a href="#dinner">Dinner</a>
+                        </li>
+
+                        <li class="menu-list-item">
+                            <a href="#dessert">Dessert</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a href="#Contact us">Contact us</a></li>
+                <li class="nav-item"><a href="#Order">Order</a></li>
             </ul>
 
             <div class="icon">
@@ -32,18 +75,18 @@
         </nav>
 
     </section>
-    
+
     <!--Menu-->
 
     <div class="menu" id="Menu">
-       
+        
         <h1>Our<span>Menu</span></h1>
 
         <div class="menu_box">
             <div class="menu_card">
 
                 <div class="menu_image">
-                    <img src="./burger.jpeg">
+                    <img src="./images/omelette.jpg">
                 </div>
 
                 <div class="small_card">
@@ -51,12 +94,14 @@
                 </div>
 
                 <div class="menu_info">
-                    <h2>Buger</h2>
+                    <h2>omelette</h2>
 
                     <h3>$20.00</h3>
 
                     <a href="#" class="menu_btn">Order Now</a>
-
+                    <button class="button button1">Add</button>
+                    <button class="button button3">Edit</button> 
+                    <button class="button button2">Delete</button> 
                 </div>
 
             </div>
@@ -64,7 +109,7 @@
             <div class="menu_card">
 
                 <div class="menu_image">
-                    <img src="./pasta.jpeg">
+                    <img src="./images/grill.jpg">
                 </div>
 
                 <div class="small_card">
@@ -72,11 +117,15 @@
                 </div>
 
                 <div class="menu_info">
-                    <h2>pasta</h2>
+                    <h2> CheeseSandwich</h2>
 
-                    <h3>$60.00</h3>
-
+                    <h3>$15.00</h3>
+                    
                     <a href="#" class="menu_btn">Order Now</a>
+                    <button class="button button1">Add</button>
+                    <button class="button button3">Edit</button> 
+                    <button class="button button2">Delete</button> 
+                    
                 </div>
 
             </div>
@@ -84,7 +133,7 @@
             <div class="menu_card">
 
                 <div class="menu_image">
-                    <img src="./lasg.jpg">
+                    <img src="./images/cott.jpg">
                 </div>
 
                 <div class="small_card">
@@ -92,131 +141,14 @@
                 </div>
 
                 <div class="menu_info">
-                    <h2>lasagna</h2>
-
-                    <h3>$28.00</h3>
-
-                    <a href="#" class="menu_btn">Order Now</a>
-                </div>
-
-            </div>
-
-            <div class="menu_card">
-
-                <div class="menu_image">
-                    <img src="./loi.jpg">
-                </div>
-
-                <div class="small_card">
-                    <i class="fa-solid fa-heart"></i>
-                </div>
-
-                <div class="menu_info">
-                    <h2>Sandwhich</h2>
-
-                    <h3>$30.00</h3>
-
-                    <a href="#" class="menu_btn">Order Now</a>
-                </div>
-
-            </div>
-
-            <div class="menu_card">
-
-                <div class="menu_image">
-                    <img src="./pizza.jpeg">
-                </div>
-
-                <div class="small_card">
-                    <i class="fa-solid fa-heart"></i>
-                </div>
-
-                <div class="menu_info">
-                    <h2>pizza</h2>
-
-                    <h3>$37.00</h3>
-
-                    <a href="#" class="menu_btn">Order Now</a>
-                </div>
-
-            </div>
-
-            <div class="menu_card">
-
-                <div class="menu_image">
-                    <img src="./hotd.jpg">
-                </div>
-
-                <div class="small_card">
-                    <i class="fa-solid fa-heart"></i>
-                </div>
-
-                <div class="menu_info">
-                    <h2>Hot Dog</h2>
-
-                    <h3>$18.00</h3>
-
-                    <a href="#" class="menu_btn">Order Now</a>
-                </div>
-
-            </div>
-
-            <div class="menu_card">
-
-                <div class="menu_image">
-                    <img src="./fet.jpg">
-                </div>
-
-                <div class="small_card">
-                    <i class="fa-solid fa-heart"></i>
-                </div>
-
-                <div class="menu_info">
-                    <h2>Fettuccine Alfredo</h2>
-
-                    <h3>$22.00</h3>
-
-                    <a href="#" class="menu_btn">Order Now</a>
-                </div>
-
-            </div>
-
-            <div class="menu_card">
-
-                <div class="menu_image">
-                    <img src="./byry.jpg">
-                </div>
-
-                <div class="small_card">
-                    <i class="fa-solid fa-heart"></i>
-                </div>
-
-                <div class="menu_info">
-                    <h2>Biryani</h2>
-
-                    <h3>$32.00</h3>
-
-                    <a href="#" class="menu_btn">Order Now</a>
-                </div>
-
-            </div>
-
-            <div class="menu_card">
-
-                <div class="menu_image">
-                    <img src="./chic.jpg">
-                </div>
-
-                <div class="small_card">
-                    <i class="fa-solid fa-heart"></i>
-                </div>
-
-                <div class="menu_info">
-                    <h2>chicken wings</h2>
+                    <h2> Cottage Cheese</h2>
 
                     <h3>$25.00</h3>
 
                     <a href="#" class="menu_btn">Order Now</a>
+                    <button class="button button1">Add</button>
+                    <button class="button button3">Edit</button> 
+                    <button class="button button2">Delete</button> 
                 </div>
 
             </div>
@@ -224,7 +156,7 @@
             <div class="menu_card">
 
                 <div class="menu_image">
-                    <img src="./sushi.jpg">
+                    <img src="./images/green.jpg">
                 </div>
 
                 <div class="small_card">
@@ -232,11 +164,14 @@
                 </div>
 
                 <div class="menu_info">
-                    <h2>sushi</h2>
+                    <h2>Green Burger</h2>
 
-                    <h3>$32.00</h3>
+                    <h3>$22.00</h3>
 
                     <a href="#" class="menu_btn">Order Now</a>
+                    <button class="button button1">Add</button>
+                    <button class="button button3">Edit</button> 
+                    <button class="button button2">Delete</button> 
                 </div>
 
             </div>
@@ -244,7 +179,7 @@
             <div class="menu_card">
 
                 <div class="menu_image">
-                    <img src="./noodles.jpg">
+                    <img src="./images/fool.jpg">
                 </div>
 
                 <div class="small_card">
@@ -252,11 +187,129 @@
                 </div>
 
                 <div class="menu_info">
-                    <h2>noodles</h2>
+                    <h2>Fool</h2>
+
+                    <h3>$20.00</h3>
+
+                    <a href="#" class="menu_btn">Order Now</a>
+                    <button class="button button1">Add</button>
+                    <button class="button button3">Edit</button> 
+                    <button class="button button2">Delete</button> 
+                </div>
+
+            </div>
+
+            <div class="menu_card">
+
+                <div class="menu_image">
+                    <img src="./images/Greek Chicken Salad.webp">
+                </div>
+
+                <div class="small_card">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div class="menu_info">
+                    <h2>Chicken Salad</h2>
+
+                    <h3>$30.00</h3>
+
+                    <a href="#" class="menu_btn">Order Now</a>
+                    <button class="button button1">Add</button>
+                    <button class="button button3">Edit</button> 
+                    <button class="button button2">Delete</button> 
+                </div>
+
+            </div>
+
+            <div class="menu_card">
+
+                <div class="menu_image">
+                    <img src="./images/pot.jpg">
+                </div>
+
+                <div class="small_card">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div class="menu_info">
+                    <h2>Potatoes</h2>
+
+                    <h3>$15.00</h3>
+
+                    <a href="#" class="menu_btn">Order Now</a>
+                    <button class="button button1">Add</button>
+                    <button class="button button3">Edit</button> 
+                    <button class="button button2">Delete</button> 
+                </div>
+
+            </div>
+
+            <div class="menu_card">
+
+                <div class="menu_image">
+                    <img src="./images/savorycottagecheesetoast.jpg">
+                </div>
+
+                <div class="small_card">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div class="menu_info">
+                    <h2>Cheese toast</h2>
+
+                    <h3>$17.00</h3>
+
+                    <a href="#" class="menu_btn">Order Now</a>
+                    <button class="button button1">Add</button>
+                    <button class="button button3">Edit</button> 
+                    <button class="button button2">Delete</button> 
+                </div>
+
+            </div>
+
+            <div class="menu_card">
+
+                <div class="menu_image">
+                    <img src="./images/French Fries.jpg">
+                </div>
+
+                <div class="small_card">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div class="menu_info">
+                    <h2>French Fries</h2>
+
+                    <h3>$20.00</h3>
+
+                    <a href="#" class="menu_btn">Order Now</a>
+                    <button class="button button1">Add</button>
+                    <button class="button button3">Edit</button> 
+                    <button class="button button2">Delete</button> 
+                </div>
+
+            </div>
+
+            <div class="menu_card">
+
+                <div class="menu_image">
+                    <img src="./images/hotdog.jpg">
+                </div>
+
+                <div class="small_card">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div class="menu_info">
+                    <h2>Hot dog</h2>
 
                     <h3>$12.00</h3>
 
                     <a href="#" class="menu_btn">Order Now</a>
+                    <button class="button button1">Add</button>
+                    <button class="button button3">Edit</button> 
+                    <button class="button button2">Delete</button> 
                 </div>
 
             </div>
@@ -264,7 +317,7 @@
             <div class="menu_card">
 
                 <div class="menu_image">
-                    <img src="./sandw.jpg">
+                    <img src="./images/honey.jpg">
                 </div>
 
                 <div class="small_card">
@@ -272,9 +325,35 @@
                 </div>
 
                 <div class="menu_info">
-                    <h2>Sandwich</h2>
-                    <h3>$23.00</h3>
+                    <h2>French Toast</h2>
+
+                    <h3>$18.00</h3>
+
                     <a href="#" class="menu_btn">Order Now</a>
+                    <button class="button button1">Add</button>
+                    <button class="button button3">Edit</button> 
+                    <button class="button button2">Delete</button> 
+                </div>
+
+            </div>
+
+            <div class="menu_card">
+
+                <div class="menu_image">
+                    <img src="./images/bakery.jpg">
+                </div>
+
+                <div class="small_card">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div class="menu_info">
+                    <h2>Bakery</h2>
+                    <h3>$28.00</h3>
+                    <a href="#" class="menu_btn">Order Now</a>
+                    <button class="button button1">Add</button>
+                    <button class="button button3">Edit</button> 
+                    <button class="button button2">Delete</button> 
                 </div>
 
             </div>
@@ -282,6 +361,7 @@
         </div>
 
     </div>
+   
 
     <!--Order-->
 
@@ -368,5 +448,26 @@
             </div>
         </div>
     </footer>
+    <script>
+        const menuBtn = document.querySelector("li[aria-expanded]");
+        const menuList = document.getElementById("menu-list");
+    
+        function toggleMenu() {
+            const expanded = menuBtn.getAttribute("aria-expanded") === "true";
+            const newExpandedState = !expanded;
+    
+            menuBtn.setAttribute("aria-expanded", newExpandedState);
+            menuList.setAttribute("aria-expanded", newExpandedState);
+    
+            if (newExpandedState) {
+                menuList.classList.add("expanded");
+            } else {
+                menuList.classList.remove("expanded");
+            }
+        }
+    
+        menuBtn.addEventListener("click", toggleMenu);
+    </script>
 </body>
 </html>
+
