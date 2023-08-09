@@ -68,6 +68,13 @@
     cursor: pointer;
 }
 
+#web{
+      margin-right: 10px;
+    margin-left: 25px;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
 h1{
     color: black;
     text-align: left;
@@ -100,21 +107,22 @@ h1{
     margin: auto;
     margin-top: 10px;
     padding: 3px;
+    margin-left: 30px;
+    margin-right: 70%;
     transition: background-color 500ms ease-out 3ms;
     border-radius: 25px;
     cursor: pointer;
     background-color: #ffffff;
-    border-radius: 25px;
 }
 
 .head:hover {
-  background-color: rgb(221,167,181);;
+  background-color: rgb(134, 79, 95);
   border-radius: 25px;
   color: rgb(255, 255, 255);
 
 }
 .head:active{
-      background-color: rgb(221,167,181);;
+      background-color: rgb(221,167,181);
 
 }
 
@@ -140,8 +148,7 @@ p {
 
   }
   p:active{
-        background-color: rgb(221,167,181);;
-
+        background-color: rgb(221,167,181);
   }
 
 
