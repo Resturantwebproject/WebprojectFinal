@@ -16,9 +16,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path,include
+from . import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('cashier-menu/', views.cashier_menu, name='cashier_menu'),
     path('pages/',include('pages.urls'))
-    
 ]

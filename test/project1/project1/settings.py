@@ -40,8 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'pages'
-    'Dinner_menu'
-    
+    'Cashier'
 ]
 
 MIDDLEWARE = [

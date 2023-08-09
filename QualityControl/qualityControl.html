@@ -1,10 +1,13 @@
-<link rel="stylesheet" href="/Users/danieliskandar/Documents/GitHub/WebprojectFinal/QualityControl/qualitycontrol.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
 <html>
-    <script src="qualitycont.js">
+  <head>
+    <title>Quality Control</title>
+    <link rel="stylesheet" href="/Users/danieliskandar/Documents/GitHub/WebprojectFinal/QualityControl/qualitycontrol.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <script src="qualitycont.js">
     </script>
+
+  </head>
  
     <body style="background-color:rgb(253,245,233)">
         <h1 id="qText">Quality Control</h1>
@@ -12,8 +15,6 @@
         <picture>
             <img class="logo" src="/Users/danieliskandar/Downloads/logo.jpeg" alt="Logo">
         </picture>
-
-       ffffffffs
 
     <div class="qualContBox">
         <div id="viewDiv">
@@ -31,149 +32,27 @@
 
     <div id="viewComments" style="display:none;" overflow-y: auto;>
         <div>
-            <hr>
-            <h4> Name: Ahmed Ashraf</h4>
-            <h4> Order: 1 CheeseBurger</h4>
-            <h4>Order status: Done</h4>
-            <h4> Comment: "Needed extra cheese"</h4>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star"></span>
-            <span class="fa fa-star"></span>
-            <hr> 
-        
-            <h4> Name: Osama Ahmed</h4>
-            <h4> Order: 2 Chicken strips Meal</h4>
-            <h4>Order status: Done</h4>
-            <h4> Comment: " "</h4>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <hr> 
-            <h4> Name: Yassin Labib</h4>
-            <h4> Order: 1 Oreo MilkShake</h4>
-            <h4>Order status: Done</h4>
-            <h4> Comment: "Wasn't cold"</h4>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star "></span>
-            <span class="fa fa-star "></span>
-            <span class="fa fa-star "></span>
-            <span class="fa fa-star "></span>
-            <hr> 
-            <h4> Name: Donya Hany</h4>
-            <h4> Order: 1 Vanilla MilkShake</h4>
-            <h4>Order status: Done</h4>
-            <h4> Comment: "It was good"</h4>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star "></span>
-            <hr> 
-            <h4> Name: Donya Hany</h4>
-            <h4> Order: 1 Oreo MilkShake</h4>
-            <h4>Order status: Cancelled</h4>
-            <h4> Comment: "Waited for too long"</h4>
-            <span class="fa fa-star "></span>
-            <span class="fa fa-star "></span>
-            <span class="fa fa-star "></span>
-            <span class="fa fa-star "></span>
-            <span class="fa fa-star "></span>
-            <hr> 
-
-                  </div>
+          <picture>
+            <img class="white" src="/Users/danieliskandar/Downloads/white.png" alt="Logo">
+        </picture>
+        </div>
     </div>
 
 
 <div id="viewReport" style="display:none;" overflow-y: auto;>
-        <h2 class="head" id="rate" onclick="showReview()"> -Rating </h2>
-        <hr>
+  <div id="whiteRec">
+
+        <h2 class="head" id="rate" onclick="showReview()"> Rating </h2>
     
 <div id="stars" onclick="star()" style="display:none;">
-    <span class="heading">User Rating</span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star"></span>
-<h4>4.1 average based on 5 reviews.<h4>
-<hr style="border:3px solid #f1f1f1">
-
-<div class="row">
-  <div class="side">
-    <div>5 star</div>
-  </div>
-  <div class="middle">
-    <div class="bar-container">
-      <div class="bar-5"></div>
-    </div>
-  </div>
-  <div class="side right">
-    <div>150</div>
-  </div>
-  <div class="side">
-    <div>4 star</div>
-  </div>
-  <div class="middle">
-    <div class="bar-container">
-      <div class="bar-4"></div>
-    </div>
-  </div>
-  <div class="side right">
-    <div>63</div>
-  </div>
-  <div class="side">
-    <div>3 star</div>
-  </div>
-  <div class="middle">
-    <div class="bar-container">
-      <div class="bar-3"></div>
-    </div>
-  </div>
-  <div class="side right">
-    <div>15</div>
-  </div>
-  <div class="side">
-    <div>2 star</div>
-  </div>
-  <div class="middle">
-    <div class="bar-container">
-      <div class="bar-2"></div>
-    </div>
-  </div>
-  <div class="side right">
-    <div>6</div>
-  </div>
-  <div class="side">
-    <div>1 star</div>
-  </div>
-  <div class="middle">
-    <div class="bar-container">
-      <div class="bar-1"></div>
-    </div>
-  </div>
-  <div class="side right">
-    <div>20</div>
-  </div>
-</div>
-<hr>
+ 
 </div>
 
-<h2 id="de" onclick="detail()">-Details of Customers' orders</h2>
+<h2 class="head" id="de" onclick="detail()" for="btnControl"><i class="arrow right"></i> Details of Customers' orders</h2>
 <div id="details" style="display:none;">
-    <div id="cancel">Cancelled orders:</div>
-    <h4 id="c"> Name: Donya Hany</h4>
-    <h4 id="c"> Order: 1 Oreo MilkShake</h4>
-    <h4 id="c"> Comment: "Waited for too long"</h4>
-
-    <div id="cancel">Edited orders:</div>
-
 </div>
-<hr>
-<h2 id="mOrder" onclick="showMost()">-Most ordered Item </h2>
+</div>
+<h2 class="head" id="mOrder" onclick="showMost()">-Most ordered Item </h2>
 <div id="most" style="display:none;">
     <h4 id="c">MilkShake Vanilla</h4>
 </div>
