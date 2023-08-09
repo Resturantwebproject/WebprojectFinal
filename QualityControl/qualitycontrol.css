@@ -92,6 +92,32 @@ h1{
             
             
 }
+
+.head{
+  box-shadow: inset 0 0 0 0 rgb(238,216,204);
+    color: rgb(221,167,181);
+    font-size: 22px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 3px;
+    transition: background-color 500ms ease-out 3ms;
+    border-radius: 25px;
+    cursor: pointer;
+    background-color: #ffffff;
+    border-radius: 25px;
+}
+
+.head:hover {
+  background-color: rgb(221,167,181);;
+  border-radius: 25px;
+  color: rgb(255, 255, 255);
+
+}
+.head:active{
+      background-color: rgb(221,167,181);;
+
+}
+
 p {
     box-shadow: inset 0 0 0 0 rgb(238,216,204);
     color: rgb(221,167,181);
@@ -147,7 +173,6 @@ h4{
   
   #viewReport{
     border-radius: 25px;
-
     display: block;
     background-color: rgb(221,167,181);
     height: 80%;
@@ -192,27 +217,7 @@ h4{
     clear: both;
   }
   
-  .bar-container {
-    width: 100%;
-    background-color: #f1f1f1;
-    text-align: center;
-    color: white;
-  }
-  
-  .bar-5 {width: 60%; height: 18px; background-color: #04AA6D;}
-  .bar-4 {width: 30%; height: 18px; background-color: #2196F3;}
-  .bar-3 {width: 10%; height: 18px; background-color: #00bcd4;}
-  .bar-2 {width: 4%; height: 18px; background-color: #ff9800;}
-  .bar-1 {width: 15%; height: 18px; background-color: #f44336;}
-  
-  @media (max-width: 400px) {
-    .side, .middle {
-      width: 100%;
-    }
-    .right {
-      display: none;
-    }
-  }
+
 
   #cancel{
     font-family: "Gill Sans", sans-serif;
@@ -234,4 +239,29 @@ h4{
     cursor: pointer;
   }
 
+  .logo{
+    margin-bottom: -30px;
+  }
+
+  .white{
+    color-interpolation-filters:10px;
+    width: 400px;
+  }
   
+  .arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin: auto;
+  }
+  
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+
+  #btnControl:checked+ h2 > i{
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
