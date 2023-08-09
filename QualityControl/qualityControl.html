@@ -25,16 +25,17 @@
        </div>
 
        <div id="managerDiv"> 
-        <p id="manage"> Manage Employees</p>
+        <p id="manage"><a onclick="showManage()"> </a> Manage Employees</p>
        </div>
+       <div id="webRev">
+        <p id="web"><a onclick="light()"> </a><a onclick=""> View Website Reviews</a></p>
 
+       </div>
     </div>
 
     <div id="viewComments" style="display:none;" overflow-y: auto;>
         <div>
-          <picture>
-            <img class="white" src="/Users/danieliskandar/Downloads/white.png" alt="Logo">
-        </picture>
+          
         </div>
     </div>
 
@@ -44,15 +45,12 @@
 
         <h2 class="head" id="rate" onclick="showReview()"> Rating </h2>
     
-<div id="stars" onclick="star()" style="display:none;">
- 
-</div>
 
-<h2 class="head" id="de" onclick="detail()" for="btnControl"><i class="arrow right"></i> Details of Customers' orders</h2>
+<h2 class="head" id="de" onclick="detail()" for="btnControl">Details of Customers' orders</h2>
 <div id="details" style="display:none;">
 </div>
 </div>
-<h2 class="head" id="mOrder" onclick="showMost()">-Most ordered Item </h2>
+<h2 class="head" id="mOrder" onclick="showMost()">Most ordered Item </h2>
 <div id="most" style="display:none;">
     <h4 id="c">MilkShake Vanilla</h4>
 </div>
