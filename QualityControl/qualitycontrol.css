@@ -46,8 +46,18 @@
         overflow-y: scroll;
         cursor: pointer;
 
+}
 
-
+#viewManage{
+  border-radius: 25px;
+  display: block;
+  background-color: rgb(221,167,181);;
+  height: 80%;
+  width: 99%;
+  padding: 13px;
+  margin-top: 30px;
+  overflow-y: scroll;
+  cursor: pointer;
 }
 #view{
     margin-right: 10px;
@@ -107,8 +117,7 @@ h1{
     margin: auto;
     margin-top: 10px;
     padding: 3px;
-    margin-left: 30px;
-    margin-right: 70%;
+    margin-left: 10px;
     transition: background-color 500ms ease-out 3ms;
     border-radius: 25px;
     cursor: pointer;
@@ -142,14 +151,12 @@ p {
     font-family: "Gill Sans", sans-serif;
   }
   p:hover {
-    background-color: rgb(221,167,181);;
+    background-color: rgb(158, 112, 124);;
     border-radius: 25px;
     color: rgb(255, 255, 255);
 
   }
-  p:active{
-        background-color: rgb(221,167,181);
-  }
+
 
 
 h4{
@@ -183,7 +190,7 @@ h4{
     display: block;
     background-color: rgb(221,167,181);
     height: 80%;
-    width: 99%;
+    width: 30%;
     padding: 13px;
     margin-top: 30px;
     overflow-y: scroll;
