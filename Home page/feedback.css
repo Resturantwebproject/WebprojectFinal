@@ -51,6 +51,7 @@ form{
 fieldset{
     border: 1px solid lightgray;
     margin: 10px;
+margin-right: auto;
 }
 
 legend{
@@ -71,6 +72,7 @@ textarea{
     vertical-align: top;
     height: 12em;
     resize: vertical;
+    margin-left:-50%;
 }
 
 button{
@@ -87,4 +89,61 @@ button{
 #submitbutton{
     display: flex;
     justify-content: center;
+}
+
+label{
+    text-align: left;
+    margin-left:14px;
+}
+#m{
+    margin-left: 28px;
+}
+
+#fs{
+    margin:-50%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.rate {
+    margin-left:35%;
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+
+#msg{
+margin-left: auto;
 }
