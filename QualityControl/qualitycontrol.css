@@ -6,6 +6,7 @@
     background-color:  rgb(188, 112, 133);
     border-radius: 25px;
     text-align: center;
+    
 
         }
 
@@ -193,8 +194,7 @@ h4{
     width: 30%;
     padding: 13px;
     margin-top: 30px;
-    overflow-y: scroll;
-
+    
   }
 
   .heading {
@@ -257,25 +257,12 @@ h4{
     margin-bottom: -30px;
   }
 
-  .white{
-    color-interpolation-filters:10px;
-    width: 400px;
-  }
-  
-  .arrow {
-    border: solid black;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 3px;
-    margin: auto;
-  }
-  
-  .right {
-    transform: rotate(-45deg);
-    -webkit-transform: rotate(-45deg);
-  }
 
-  #btnControl:checked+ h2 > i{
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
+  #most{
+    border-radius: 25px;
+    background-color: rgb(221,167,181);;
+    height: 80%;
+    padding: 13px;
+    margin-left: 35%;
+    margin-top:-645px;
   }

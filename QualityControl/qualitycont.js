@@ -32,6 +32,7 @@ function showManage() {
 var divDiv=document.getElementById("viewComments");
   var vb=document.getElementById("view");
   var rb=document.getElementById("report");
+  var md=document.getElementById("most");
 
   if (box.style.display === "none") {
     divDiv.style.display = "none";
@@ -40,6 +41,7 @@ var divDiv=document.getElementById("viewComments");
     button.style.color=" rgb(0,0,0)"
     vb.style.color="rgb(221,167,181)";
     rb.style.color="rgb(221,167,181)";
+    md.style.display="none";
  
   } else {
     viewManage.style.display = "none";
@@ -131,4 +133,16 @@ function light(){
             buttonComment.style.color="white";
         }
     });
+}
+
+function most(){
+  var d=document.getElementById("most");
+  if (d.style.display === "none") {
+    d.style.display = "block";
+  }
+  else{
+    d.style.display ="none";
+  }
+
+
 }
