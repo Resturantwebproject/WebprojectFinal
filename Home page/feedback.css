@@ -126,13 +126,13 @@ label{
     font-size:30px;
     color:#ccc;
 }
-.rate:not(:checked) > label:before {
+.rate:not(:checked) > label:before { /*for unchecked stars*/
     content: '★ ';
 }
 .rate > input:checked ~ label {
     color: #ffc700;    
 }
-.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover, /*show hover star*/
 .rate:not(:checked) > label:hover ~ label {
     color: #deb217;  
 }
@@ -140,7 +140,7 @@ label{
 .rate > input:checked + label:hover ~ label,
 .rate > input:checked ~ label:hover,
 .rate > input:checked ~ label:hover ~ label,
-.rate > label:hover ~ input:checked ~ label {
+.rate > label:hover ~ input:checked ~ label {   /*if star is clicked and hovered on*/
     color: #c59b08;
 }
 
