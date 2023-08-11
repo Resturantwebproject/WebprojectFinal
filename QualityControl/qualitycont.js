@@ -7,6 +7,8 @@ function showDiv() {
   var button = document.getElementById("view");
   var rb=document.getElementById("report");
   var bm=document.getElementById("manage");
+  var md=document.getElementById("most");
+
 
 
     if (viewComments.style.display === "none") {
@@ -16,6 +18,7 @@ function showDiv() {
         view.style.color=" rgb(0,0,0)"
         rb.style.color="rgb(221,167,181)";
         bm.style.color="rgb(221,167,181)";
+        md.style.display="none";
 
       } else {
         box.style.display = "none";
@@ -55,9 +58,9 @@ var button = document.getElementById("report");
 var vb=document.getElementById("view");
 var box = document.getElementById("viewReport");
 var divDiv=document.getElementById("viewComments");
-var vm=document.getElementById("most");
 var mb=document.getElementById("manage");
-var mv=document.getElementById("viewManage")
+var mv=document.getElementById("viewManage");
+var md=document.getElementById("most");
 
 if (box.style.display === "none") {
     box.style.display = "block";
@@ -65,13 +68,16 @@ if (box.style.display === "none") {
     viewManage.style.display="none";
     button.style.color="rgb(0,0,0)";
     vb.style.color="rgb(221,167,181)";
-    vm.style.color="rgb(221,167,181)";
+    mv.style.color="rgb(221,167,181)";
     mb.style.color="rgb(221,167,181)";
+    md.style.display="none";
 
   } else {
     box.style.display = "none";
     box.style.textDecoration="none";
     button.style.color="rgb(221,167,181)";
+    md.style.display="none";
+    
   }
 
 }   
