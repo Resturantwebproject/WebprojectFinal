@@ -3,6 +3,7 @@ body{
     background-repeat: no-repeat;
     background-size:100%;
     overflow: scroll;
+    
 
 }
 #white{
@@ -84,14 +85,37 @@ body{
 
 }
 
+#ou a{
+    transition: all 500ms;
+}
 
+#ou a:hover{
+    font-size:100px;
+    font-size-adjust: 20px;
+}
+
+#wel a{    
+    transition: all 500ms;
+}
+#wela:hover{
+    font-size:100px;
+    font-size-adjust: 20px;
+}
 
 #ou{
     font-family: 'Snell Roundhand', 'cursive';
-    font-size: 100px;
+    font-size: 80px;
     margin-left: 10%;
     margin-top:20%;
-    font-weight: 50;
     margin-bottom: 10%;
     font-weight: bolder;
+}
+
+.scroll{
+    display: block;
+    background-color: white;
+    height: 60%;
+    margin-top: 100px;
+    margin-left: -10px;
+    margin-right: -10px;
 }
