@@ -1,0 +1,125 @@
+<html>
+ <style>
+body{
+    background:url(/Users/danieliskandar/Documents/GitHub/WebprojectFinal/Admin/backgroind1.jpeg);
+    background-repeat: no-repeat;
+    background-size:100%;
+
+}
+#white{
+    display: block;
+    background-color: white;
+    height: 100px;
+    width:101.2%; 
+    margin-top:-10px;
+    margin-left: -10px;
+    right: 10px;
+    box-shadow: 0px 5px 3px rgb(32, 32, 32);
+}
+#logo{
+    width:150px;
+    margin-top: -30px;
+    margin-left: 30px;
+    display: inline;
+}
+#wel{
+    font-family: 'Snell Roundhand', 'cursive';
+    font-size: 60px;
+    margin-left: 5%;
+    margin-top: 10%;
+    margin-bottom:-20%;
+}
+
+#home{
+    margin-left: 41%;
+    margin-top: -130px;
+    font-size: 20px;
+    bottom: 57;
+    cursor: pointer;
+}
+
+.d::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+.d{
+    display: inline-block;
+    position: relative;
+    color: #000000;
+}
+.d:hover::after{
+    transform: scaleX(1); /* finish animated line at end of text*/
+    transform-origin: bottom left;
+}
+
+
+#res{
+    margin-left: 70%;
+    margin-top: -100px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+#about{
+    margin-left: 61%;
+    margin-top: -100px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+#cont{
+    margin-left: 80%;
+    margin-top: -100px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+
+
+#ou{
+    font-family: 'Snell Roundhand', 'cursive';
+    font-size: 100px;
+    margin-left: 10%;
+    margin-top:20%;
+    font-weight: 50;
+    margin-bottom: 10%;
+    font-weight: bolder;
+}
+
+
+ </style>   
+ 
+<head>
+</head>
+<body>
+    <div id="white">
+        <picture>
+            <img id="logo" src="./images/logo.PNG">
+            <p class="d" id="home">Home</p>
+            <p id="about" class="d">About us</p>
+            <p id="res" class="d">Reservation</p>
+            <p id="cont" class="d">Contact</p>
+        </picture>
+       
+    </div>
+        
+    
+
+
+<p id="wel">Welcome to</p>
+<p id="ou">MealMakers</h2>
+
+</body>
+
+</html>

@@ -6,6 +6,7 @@
     background-color:  rgb(188, 112, 133);
     border-radius: 25px;
     text-align: center;
+    
 
         }
 
@@ -46,8 +47,18 @@
         overflow-y: scroll;
         cursor: pointer;
 
+}
 
-
+#viewManage{
+  border-radius: 25px;
+  display: block;
+  background-color: rgb(221,167,181);;
+  height: 80%;
+  width: 99%;
+  padding: 13px;
+  margin-top: 30px;
+  overflow-y: scroll;
+  cursor: pointer;
 }
 #view{
     margin-right: 10px;
@@ -107,8 +118,7 @@ h1{
     margin: auto;
     margin-top: 10px;
     padding: 3px;
-    margin-left: 30px;
-    margin-right: 70%;
+    margin-left: 10px;
     transition: background-color 500ms ease-out 3ms;
     border-radius: 25px;
     cursor: pointer;
@@ -142,14 +152,12 @@ p {
     font-family: "Gill Sans", sans-serif;
   }
   p:hover {
-    background-color: rgb(221,167,181);;
+    background-color: rgb(158, 112, 124);;
     border-radius: 25px;
     color: rgb(255, 255, 255);
 
   }
-  p:active{
-        background-color: rgb(221,167,181);
-  }
+
 
 
 h4{
@@ -183,11 +191,10 @@ h4{
     display: block;
     background-color: rgb(221,167,181);
     height: 80%;
-    width: 99%;
+    width: 30%;
     padding: 13px;
     margin-top: 30px;
-    overflow-y: scroll;
-
+    
   }
 
   .heading {
@@ -250,25 +257,12 @@ h4{
     margin-bottom: -30px;
   }
 
-  .white{
-    color-interpolation-filters:10px;
-    width: 400px;
-  }
-  
-  .arrow {
-    border: solid black;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 3px;
-    margin: auto;
-  }
-  
-  .right {
-    transform: rotate(-45deg);
-    -webkit-transform: rotate(-45deg);
-  }
 
-  #btnControl:checked+ h2 > i{
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
+  #most{
+    border-radius: 25px;
+    background-color: rgb(221,167,181);;
+    height: 80%;
+    padding: 13px;
+    margin-left: 35%;
+    margin-top:-645px;
   }
